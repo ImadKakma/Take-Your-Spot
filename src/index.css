@@ -1,0 +1,58 @@
+/* Set a gradient background for the entire page */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Sigmar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
+
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh; /* Ensure the body takes full height */
+  background: linear-gradient(180deg, #000000, #2f2f2f); /* Dark gradient (black to dark gray) */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background: black;
+  border: solid gray 0.5px;
+  margin: 20px 10px;
+  border-radius: 5px; */
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+/* .menu{
+  border-bottom: solid gray 0.5px;
+ 
+  width: 100%;
+  padding:15px;
+  margin-right:10px;
+}
+.menu ul {
+  list-style: none;
+  display: flex;
+  gap:20px;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  font-family: "IBM Plex Mono", serif;
+  font-weight: 350;
+  font-style: normal;
+  font-size: 15px;
+} */
+.logo{
+  font-family: "IBM Plex Mono", serif;
+}
+.big{
+  font-family: "Sigmar", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 180px;
+}
+.small {
+  font-family: "Sigmar", serif;
+  font-weight: 400;
+ font-size: 40px;
+}
